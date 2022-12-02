@@ -1,0 +1,17 @@
+{
+  "name": "outcast-cli",
+  "version": "1.0.0",
+  "description": "weather forecast CLI",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Rubén Acevedo",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.0",
+    "git-commit-msg-linter": "^4.4.0",
+    "yargs": "^17.6.2"
+  }
+}
