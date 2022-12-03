@@ -5,7 +5,6 @@ const getLocationInfo = require("./utils/getLocationInfo");
 const forecast = require("./utils/forecast");
 let arg;
 
-// validating args
 if (!argv.today && !argv.week) {
   throw new Error("no arguments found, try: --today or --week");
 }
@@ -20,6 +19,7 @@ else arg = argv.week;
 const main = async () => {
   const locationInfo = await getLocationInfo(location);
   const response = await forecast(locationInfo.coordinates);
+  console.log(response);
 };
 
 main();

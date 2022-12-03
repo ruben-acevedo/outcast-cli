@@ -8,9 +8,7 @@ const forecast = async (coordinates) => {
         "accept-encoding": null,
       },
     })
-    .then((res) => {
-      console.log(res.data);
-    });
+    .then((res) => res.data);
 };
 
 module.exports = forecast;
