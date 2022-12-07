@@ -20,3 +20,9 @@ node index.js São Paulo --today
 ```
 
 using yargs, axios and git-commit-msg-linter
+
+### Feel free to contribute! 
+
+## Contact:
+
+rubenfsolorzano@hotmail.com
