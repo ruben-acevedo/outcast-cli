@@ -1,19 +1,22 @@
-#Outcast-CLI
+# Outcast-CLI
 
-Command line weather forecast built in Node.js.
+### Command line weather forecast built in Node.js.
 (In development)
 
-Usage:
+## Usage:
+```
+node ./index.js city --args
+```
 
-run with city name + args
-
-ex:
-
-node index.js São Paulo --today
-
-args:
-
+### args:
+```
 --today // current weather
---week // week forecast
+--week // week forecast (in development)
+```
+### example: 
+
+```
+node index.js São Paulo --today
+```
 
 using yargs, axios and git-commit-msg-linter
